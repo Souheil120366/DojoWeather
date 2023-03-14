@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f3f3;
+}
+
+.top {
+    background-color: #5aadba;
+}
+
+.nav {
+    width: 1080px;
+    margin: 0 auto;
+    color: #ffffff;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.nav-title {
+    margin-left: 20px;
+}
+.townSelected {
+    height: 40px;
+    width: 1000px;
+    margin-top: 20px;
+    margin-left: 250px;
+    border-bottom: 3px solid black;
+}
+.townSelected > h2 {
+    display:inline-block;
+    width: 80%;
+}
+.townSelected > p {
+    display:inline;
+    font-weight: bold;
+    margin-right:5px;
+}
+.forecast {
+    display: flex;
+    width: 1020px;
+    margin-left: 250px;
+    margin-top: 10px;
+}
+.day {
+    flex:1;
+    height: 380px;
+    background-color:rgb(240, 235, 235);
+    margin:20px 20px 20px 0px;
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+}
+.avatar-m {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 190px;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.temp {
+    display:flex;
+}
+.temp > p {
+    color:red;
+    font-size:24px;
+    font-weight:bold;
+    width: 100px;
+}
+.temp > span {
+    color:blue;
+    font-size:24px;
+    font-weight:bold;
+}
+#cookie {
+    display: flex;
+    position: fixed;
+    width: 1000px;
+    margin-left: 250px;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+.cookieImg, .cookieBtn {
+    flex:1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.cookieText {
+    flex:4;
+}
+.btn {
+    height: 35px;
+    width: 100px;
+    background-color: #17a2b8;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+    cursor: pointer;
+}
+.pointer {
+    cursor: pointer;
+  }
